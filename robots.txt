@@ -1,0 +1,31 @@
+User-agent: *
+
+# Block WordPress admin (allow AJAX)
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Block search results (duplicate content)
+Disallow: /?s=
+Disallow: /search/
+
+# Block author and tag archives (thin content)
+Disallow: /author/
+Disallow: /tag/
+
+# Block WordPress system files
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# Block query string variations (duplicate content)
+Disallow: /*?*replytocom=
+Disallow: /*?*preview=true
+
+# Allow important assets
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes/
+Allow: /wp-content/plugins/
+
+Sitemap: https://letrasdiferentesonline.com/sitemap_index.xml

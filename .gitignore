@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# WordPress runtime (should never be in a theme repo)
+wp-config.php
+*.sql
+*.log
+
+# Backups / archives
+*.zip
+*.tar
+*.gz
+*.bak
+
+# Node (if a build is ever added)
+node_modules/
