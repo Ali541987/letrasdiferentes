@@ -1,4 +1,4 @@
-/* ═══════════════════════════════════════════════════
+﻿/* ═══════════════════════════════════════════════════
    LetrasDiferentesOnline.com — Main Stylesheet
    Dark mode default · Light mode toggle
    Purple/Violet accent theme
@@ -1555,4 +1555,30 @@ details.faq-item[open] summary::after { transform: rotate(45deg); }
     line-height: 1.5;
     word-break: break-word;
   }
+}
+
+/* ── COOKIE CONSENT (LGPD) ── */
+.ld-cookie-consent {
+  position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 1100;
+  max-width: 720px; margin: 0 auto;
+  background: var(--surface2); border: 1px solid var(--border2);
+  border-radius: 14px; box-shadow: 0 8px 40px rgba(0,0,0,.5);
+  padding: 16px 18px; animation: cookieUp .4s cubic-bezier(.4,0,.2,1);
+}
+.ld-cookie-consent[hidden] { display: none; }
+@keyframes cookieUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.ld-cookie-inner { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.ld-cookie-text { flex: 1; min-width: 220px; font-size: .85rem; color: var(--light); line-height: 1.5; margin: 0; }
+.ld-cookie-text a { color: var(--accent); text-decoration: underline; }
+.ld-cookie-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.ld-cookie-btn { font-size: .85rem; font-weight: 700; padding: 9px 18px; border-radius: 10px; cursor: pointer; transition: opacity .2s, border-color .2s, color .2s; border: none; }
+.ld-cookie-accept { background: linear-gradient(135deg, var(--accent2), var(--accent)); color: #fff; box-shadow: var(--shadow-btn); }
+.ld-cookie-accept:hover { opacity: .9; }
+.ld-cookie-decline { background: transparent; color: var(--light); border: 1px solid var(--border2); }
+.ld-cookie-decline:hover { border-color: var(--accent); color: var(--accent); }
+@media (max-width: 600px) {
+  .ld-cookie-consent { left: 10px; right: 10px; bottom: 10px; padding: 14px; }
+  .ld-cookie-inner { flex-direction: column; align-items: stretch; gap: 12px; }
+  .ld-cookie-actions { justify-content: stretch; }
+  .ld-cookie-btn { flex: 1; }
 }

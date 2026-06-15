@@ -43,10 +43,21 @@ $legal = [
 <h2>4. Cookies e Tecnologias Similares</h2>
 <p>Utilizamos cookies para fins de análise de tráfego (Google Analytics). Esses cookies coletam dados de forma agregada e anônima — não identificam você pessoalmente. Para informações detalhadas sobre os cookies utilizados, consulte nossa <a href=\"/politica-de-cookies/\">Política de Cookies</a>. Você pode desativar os cookies analíticos nas configurações do seu navegador sem perda de funcionalidade do site.</p>
 
-<h2>5. Compartilhamento de Dados</h2>
-<p>Não vendemos, alugamos nem comercializamos seus dados pessoais com terceiros. Compartilhamos dados analíticos agregados e anônimos com:</p>
+<h2>5. Compartilhamento de Dados e Publicidade</h2>
+<p>Não vendemos, alugamos nem comercializamos seus dados pessoais. Para manter o site gratuito, trabalhamos com parceiros que tratam dados de forma agregada e, no caso da publicidade, podem utilizar cookies:</p>
 <ul>
   <li><strong>Google Analytics</strong> (Google LLC): para análise de tráfego e comportamento de uso. Dados anônimos, sem identificação pessoal. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google</a>.</li>
+  <li><strong>Google AdSense</strong> (Google LLC): exibição de anúncios para sustentar o serviço gratuito. O Google e seus parceiros (fornecedores terceiros) podem utilizar cookies para veicular anúncios.</li>
+</ul>
+
+<h3>5.1 Publicidade e Cookies de Anúncios (Google AdSense)</h3>
+<p>Este site exibe ou poderá exibir anúncios fornecidos pelo Google AdSense. Em relação a esses anúncios, você deve saber que:</p>
+<ul>
+  <li>Fornecedores terceiros, incluindo o Google, utilizam cookies para veicular anúncios com base nas visitas anteriores do usuário a este e a outros sites na internet.</li>
+  <li>O uso de cookies de publicidade pelo Google — como o cookie <strong>DART</strong> — permite que ele e seus parceiros veiculem anúncios aos usuários com base na sua navegação.</li>
+  <li>Você pode <strong>desativar a publicidade personalizada</strong> a qualquer momento nas <a href=\"https://www.google.com/settings/ads\" target=\"_blank\" rel=\"noopener\">Configurações de Anúncios do Google</a>.</li>
+  <li>Você também pode desativar os cookies de fornecedores terceiros para publicidade personalizada acessando <a href=\"https://www.aboutads.info/choices/\" target=\"_blank\" rel=\"noopener\">www.aboutads.info/choices</a>.</li>
+  <li>Caso opte por não desativar, os cookies de fornecedores terceiros poderão ser utilizados para personalizar os anúncios exibidos.</li>
 </ul>
 
 <h2>6. Transferência Internacional de Dados</h2>
@@ -186,6 +197,17 @@ $legal = [
 </table>
 <p>O Google Analytics não identifica você pessoalmente. Os dados são usados exclusivamente para análise de tráfego e melhoria do site. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Saiba mais sobre a política de privacidade do Google</a>.</p>
 
+<h3>2.3 Cookies de Publicidade — Google AdSense</h3>
+<p>Para manter o site gratuito, exibimos (ou poderemos exibir) anúncios fornecidos pelo Google AdSense. O Google e seus parceiros utilizam cookies para veicular anúncios:</p>
+<table class=\"legal-table\">
+  <thead><tr><th>Cookie</th><th>Provedor</th><th>Finalidade</th></tr></thead>
+  <tbody>
+    <tr><td><code>DART / IDE</code></td><td>Google AdSense / DoubleClick</td><td>Veicular e medir anúncios com base na navegação</td></tr>
+    <tr><td><code>__gads / __gpi</code></td><td>Google AdSense</td><td>Medir interações com anúncios e limitar repetições</td></tr>
+  </tbody>
+</table>
+<p>Fornecedores terceiros, incluindo o Google, usam cookies para veicular anúncios com base nas visitas anteriores do usuário a este e a outros sites. Você pode desativar a publicidade personalizada nas <a href=\"https://www.google.com/settings/ads\" target=\"_blank\" rel=\"noopener\">Configurações de Anúncios do Google</a> ou em <a href=\"https://www.aboutads.info/choices/\" target=\"_blank\" rel=\"noopener\">www.aboutads.info/choices</a>. Consulte também <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">como o Google usa cookies em publicidade</a>.</p>
+
 <h2>3. Cookies Essenciais vs. Opcionais</h2>
 <p>Os dados de <strong>tema, favoritos e histórico</strong> são armazenados localmente (não são cookies de servidor) e são essenciais para o funcionamento das funcionalidades do site. Você pode limpá-los a qualquer momento nas configurações do navegador.</p>
 <p>Os <strong>cookies do Google Analytics</strong> são opcionais — o site funciona perfeitamente sem eles. Você pode desativá-los conforme descrito na seção 5 abaixo.</p>
@@ -193,9 +215,8 @@ $legal = [
 <h2>4. Não Usamos</h2>
 <p>O {$site} <strong>não utiliza</strong>:</p>
 <ul>
-  <li>Cookies de rastreamento para publicidade direcionada</li>
   <li>Cookies de redes sociais (Facebook Pixel, TikTok Pixel, etc.)</li>
-  <li>Cookies de marketing ou retargeting</li>
+  <li>Cookies de remarketing agressivo ou rastreamento entre dispositivos</li>
   <li>Fingerprinting de dispositivo</li>
   <li>Qualquer tecnologia de rastreamento além do Google Analytics</li>
 </ul>
@@ -218,6 +239,76 @@ $legal = [
 <p>Para dúvidas sobre o uso de cookies, entre em contato: <a href=\"mailto:{$email}\">{$email}</a>.</p>
 <p>Consulte também nossa <a href=\"/politica-de-privacidade/\">Política de Privacidade</a> e nossos <a href=\"/termos-de-uso/\">Termos de Uso</a>.</p>
 ",
+],
+
+/* ════════════════════════════════════════════════════════════
+   SOBRE (ABOUT)
+════════════════════════════════════════════════════════════ */
+'sobre' => [
+  'title'     => 'Sobre o LetrasDiferentesOnline.com',
+  'icon'      => 'ℹ️',
+  'show_date' => false,
+  'content'   => <<<HTML
+<h2>Quem somos</h2>
+<p>O <strong>{$site}</strong> é um gerador online e gratuito de letras diferentes, criado para ajudar milhões de brasileiros a personalizar seus textos em redes sociais e jogos. Transformamos qualquer texto que você digita em mais de 28 estilos de letras especiais — cursivas, góticas, em negrito, borbulha, estéticas e muito mais — prontas para copiar e colar com um único clique.</p>
+
+<h2>Nossa missão</h2>
+<p>A ideia nasceu de uma frustração simples: as ferramentas existentes de "letras diferentes" eram lentas, cheias de anúncios invasivos, em inglês e pensadas para outro público. Sentimos falta de uma ferramenta <strong>rápida, limpa e feita para o brasileiro</strong> — em português, otimizada para celular, sem cadastro e sem complicação.</p>
+<p>Nossa missão é oferecer a maneira mais simples e agradável de criar textos estilizados para Instagram, WhatsApp, Free Fire, TikTok e qualquer outra plataforma — de graça, para sempre.</p>
+
+<h2>Como funciona a nossa tecnologia</h2>
+<p>Diferente do que muita gente imagina, nós não "criamos fontes". As letras diferentes que geramos são <strong>caracteres do padrão Unicode</strong> — o mesmo sistema universal de caracteres usado por todos os smartphones e computadores do mundo. Por isso, o texto gerado funciona como texto normal: pode ser copiado, colado e lido em qualquer dispositivo, sem instalar nada.</p>
+<p>Blocos como o <em>Mathematical Script</em> (cursivas), <em>Fraktur</em> (góticas) e <em>Bold</em> (negrito) contêm milhares de caracteres que reproduzem visualmente diferentes tipografias. Nosso gerador converte seu texto nesses caracteres em tempo real, mostrando todos os estilos lado a lado.</p>
+
+<h2>Por que confiar no LetrasDiferentesOnline.com</h2>
+<ul>
+  <li><strong>100% gratuito e sem cadastro</strong> — você nunca precisa criar conta nem pagar nada.</li>
+  <li><strong>Privacidade em primeiro lugar</strong> — não pedimos dados pessoais; suas preferências ficam salvas apenas no seu próprio dispositivo.</li>
+  <li><strong>Rápido e leve</strong> — desenvolvido com foco em desempenho, funciona bem mesmo em conexões lentas e celulares simples.</li>
+  <li><strong>Feito no Brasil, para o Brasil</strong> — conteúdo, estilos e exemplos pensados para o público brasileiro.</li>
+  <li><strong>Sempre atualizado</strong> — adicionamos novos estilos e melhorias com frequência.</li>
+</ul>
+
+<h2>Conteúdo e responsabilidade</h2>
+<p>Todo o conteúdo editorial do site — guias, artigos e explicações sobre como usar letras diferentes em cada plataforma — é produzido pela nossa equipe com base em pesquisa e uso real das ferramentas. Buscamos sempre informação correta, clara e útil. Caso encontre algum erro ou tenha sugestões, fale conosco pela nossa <a href="/contato/">página de contato</a>.</p>
+
+<h2>Fale com a gente</h2>
+<p>Tem dúvidas, sugestões ou quer reportar um problema? Será um prazer ouvir você. Visite a nossa <a href="/contato/">página de contato</a> ou escreva diretamente para <a href="mailto:{$email}">{$email}</a>.</p>
+HTML,
+],
+
+/* ════════════════════════════════════════════════════════════
+   CONTATO (CONTACT)
+════════════════════════════════════════════════════════════ */
+'contato' => [
+  'title'     => 'Contato',
+  'icon'      => '✉️',
+  'show_date' => false,
+  'content'   => <<<HTML
+<h2>Fale com o LetrasDiferentesOnline.com</h2>
+<p>Adoramos receber mensagens de quem usa o nosso gerador de letras diferentes. Seja para tirar dúvidas, enviar sugestões, relatar um problema técnico ou tratar de parcerias, estamos à disposição.</p>
+
+<h2>E-mail</h2>
+<p>A forma mais rápida de falar conosco é por e-mail:</p>
+<p style="font-size:1.15rem"><strong><a href="mailto:{$email}">{$email}</a></strong></p>
+<p>Respondemos todas as mensagens em até <strong>2 dias úteis</strong>. Pedimos que descreva sua dúvida ou problema com o máximo de detalhes possível para que possamos ajudar mais rápido.</p>
+
+<h2>Sobre o que você pode falar conosco</h2>
+<ul>
+  <li><strong>Dúvidas de uso</strong> — como copiar e colar as letras, em quais apps funcionam, etc.</li>
+  <li><strong>Sugestões de estilos</strong> — quer um novo tipo de letra ou símbolo? Conte para nós.</li>
+  <li><strong>Problemas técnicos</strong> — algo não está funcionando? Informe o dispositivo e o navegador usados.</li>
+  <li><strong>Privacidade e dados</strong> — para exercer seus direitos previstos na LGPD, conforme nossa <a href="/politica-de-privacidade/">Política de Privacidade</a>.</li>
+  <li><strong>Parcerias e publicidade</strong> — propostas comerciais e oportunidades de divulgação.</li>
+  <li><strong>Imprensa</strong> — informações sobre o projeto para veículos e criadores de conteúdo.</li>
+</ul>
+
+<h2>Antes de escrever</h2>
+<p>Muitas dúvidas comuns já são respondidas nas perguntas frequentes da página inicial e nos nossos guias por plataforma (<a href="/letras-para-instagram/">Instagram</a>, <a href="/letras-para-whatsapp/">WhatsApp</a>, <a href="/letras-para-free-fire/">Free Fire</a> e <a href="/letras-para-tiktok/">TikTok</a>). Vale dar uma olhada antes — talvez sua resposta já esteja lá!</p>
+
+<h2>Conheça mais</h2>
+<p>Quer saber mais sobre quem está por trás do projeto e como ele funciona? Visite a nossa página <a href="/sobre/">Sobre</a>.</p>
+HTML,
 ],
 
 ]; // end $legal
@@ -249,9 +340,11 @@ ld_schema_breadcrumb([
 
 <!-- LEGAL HERO -->
 <section class="plat-hero" style="padding-bottom:32px">
-  <div class="plat-icon" aria-hidden="true">📄</div>
+  <div class="plat-icon" aria-hidden="true"><?php echo esc_html($page['icon'] ?? '📄'); ?></div>
   <h1><?php echo esc_html($page['title']); ?></h1>
+  <?php if ($page['show_date'] ?? true) : ?>
   <p style="color:var(--muted);font-size:.9rem">Última atualização: <?php echo esc_html($updated); ?></p>
+  <?php endif; ?>
 </section>
 
 <!-- LEGAL CONTENT -->

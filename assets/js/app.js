@@ -1,4 +1,4 @@
-/**
+﻿/**
  * LetrasDiferentesOnline.com — App UI
  * Handles: generator, copy, filter, favorites, history, share, theme, mobile
  */
@@ -396,4 +396,23 @@
     }
   })();
 
+})();
+
+/* ── COOKIE CONSENT (LGPD) ── */
+(function () {
+  'use strict';
+  var KEY = 'ld-cookie-consent';
+  var banner = document.getElementById('ld-cookie-consent');
+  if (!banner) return;
+  var choice = null;
+  try { choice = localStorage.getItem(KEY); } catch (e) {}
+  if (!choice) { banner.hidden = false; }
+  function setChoice(val) {
+    try { localStorage.setItem(KEY, val); } catch (e) {}
+    banner.hidden = true;
+  }
+  var a = banner.querySelector('.js-cookie-accept');
+  var d = banner.querySelector('.js-cookie-decline');
+  if (a) a.addEventListener('click', function () { setChoice('accepted'); });
+  if (d) d.addEventListener('click', function () { setChoice('declined'); });
 })();

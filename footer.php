@@ -1,4 +1,4 @@
-<!-- SITE FOOTER -->
+﻿<!-- SITE FOOTER -->
 <footer class="site-footer" role="contentinfo">
   <div class="footer-inner wrap">
 
@@ -29,9 +29,10 @@
       </div>
       <div class="footer-col">
         <p class="footer-col-title">Site</p>
+        <a href="<?php echo esc_url(home_url('/sobre/')); ?>">Sobre</a>
+        <a href="<?php echo esc_url(home_url('/contato/')); ?>">Contato</a>
         <a href="<?php echo esc_url(home_url('/#como-usar')); ?>">Como usar</a>
         <a href="<?php echo esc_url(home_url('/#faq')); ?>">FAQ</a>
-        <a href="<?php echo esc_url(home_url('/#gerador')); ?>">Gerador</a>
         <a href="<?php echo esc_url(home_url('/politica-de-privacidade/')); ?>">Privacidade</a>
         <a href="<?php echo esc_url(home_url('/termos-de-uso/')); ?>">Termos de Uso</a>
         <a href="<?php echo esc_url(home_url('/politica-de-cookies/')); ?>">Cookies</a>
@@ -50,6 +51,19 @@
 <!-- MOBILE STICKY CTA -->
 <div id="ld-sticky-cta" class="ld-sticky-cta" aria-label="Ir para o gerador">
   <a href="<?php echo esc_url(home_url('/#gerador')); ?>">✨ Gerar Letras Grátis</a>
+</div>
+
+<!-- COOKIE CONSENT (LGPD + Ads) -->
+<div id="ld-cookie-consent" class="ld-cookie-consent" role="dialog" aria-label="Aviso de cookies" hidden>
+  <div class="ld-cookie-inner">
+    <p class="ld-cookie-text">
+      🍪 Usamos cookies para análise de tráfego e para exibir anúncios que mantêm o site gratuito. Ao continuar, você concorda com a nossa <a href="<?php echo esc_url(home_url('/politica-de-cookies/')); ?>">Política de Cookies</a>.
+    </p>
+    <div class="ld-cookie-actions">
+      <button type="button" class="ld-cookie-btn ld-cookie-decline js-cookie-decline">Recusar</button>
+      <button type="button" class="ld-cookie-btn ld-cookie-accept js-cookie-accept">Aceitar</button>
+    </div>
+  </div>
 </div>
 
 <button id="ld-back-top" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
