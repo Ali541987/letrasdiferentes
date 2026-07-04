@@ -41,7 +41,7 @@ add_filter('language_attributes', fn() => 'lang="pt-BR"');
 /* ── DOCUMENT TITLE (pre_get runs before document_title_parts; priority 99 ensures we run after Rank Math) ── */
 add_filter('pre_get_document_title', function($title) {
     if (is_front_page()) {
-        return 'Letras Diferentes • Gerador de Fontes de Letras Grátis';
+        return 'Letras Diferentes • Fontes de Letras Grátis ✨ 25+ 𝓔𝓼𝓽𝓲𝓵𝓸𝓼';
     }
     global $post;
     if (is_singular() && $post) {
@@ -66,7 +66,7 @@ function ld_document_title_parts($title) {
         }
     }
     if (is_front_page()) {
-        $title['title'] = 'Letras Diferentes • Gerador de Fontes de Letras Grátis';
+        $title['title'] = 'Letras Diferentes • Fontes de Letras Grátis ✨ 25+ 𝓔𝓼𝓽𝓲𝓵𝓸𝓼';
         unset($title['tagline'], $title['site']);
     }
     return $title;
