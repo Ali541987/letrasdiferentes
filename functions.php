@@ -149,6 +149,11 @@ function ld_get_page_meta_map() {
             'title' => 'Símbolos para Copiar e Colar • Nick e Free Fire',
             'desc'  => 'Mais de 300 símbolos para copiar e colar — nick, Free Fire, Instagram e WhatsApp. Estrelas, setas, corações e muito mais. Clique e copie grátis.',
         ],
+        // ── FONTES DE LETRAS (PILLAR PAGE) ──────────────────────────────
+        'fontes-de-letras'       => [
+            'title' => 'Fontes de Letras para Copiar e Colar • 25+ Estilos',
+            'desc'  => 'Gere fontes de letras diferentes: negrito, cursivo, gótico e mais 25+ estilos. Copie e cole grátis, sem cadastro, no Instagram, WhatsApp ou Word.',
+        ],
         // ── BLOG ─────────────────────────────────────────────────────────
         'blog'                   => [
             'title' => 'Blog • Letras Diferentes Online',
@@ -180,5 +185,6 @@ add_filter('theme_page_templates', function($tpls) {
     $tpls['page-templates/page-blog.php']      = 'Blog';
     $tpls['page-templates/page-platform.php']  = 'Página de Plataforma';
     $tpls['page-templates/page-simbolos.php']  = 'Símbolos';
+    $tpls['page-templates/page-fontes-de-letras.php'] = 'Fontes de Letras';
     return $tpls;
 });
