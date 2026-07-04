@@ -79,7 +79,7 @@ function ld_meta_description() {
     $desc = '';
 
     if (is_front_page()) {
-        $desc = 'Gerador de letras diferentes e fontes de letras grátis. 25+ estilos para Instagram, WhatsApp, Free Fire e TikTok. Letras personalizadas para copiar e colar em 1 clique — sem cadastro.';
+        $desc = 'Gere letras diferentes e fontes de letras grátis: 25+ estilos para Instagram, WhatsApp, TikTok e Free Fire. Cursivas, góticas, bonitas, sem cadastro.';
     } elseif (is_singular() && $post) {
         $slug = get_post_field('post_name', $post->ID);
         $map  = ld_get_page_meta_map();
