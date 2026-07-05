@@ -84,6 +84,9 @@ function ld_schema_website(): void {
         'name'     => 'Letras Diferentes Online',
         'url'      => home_url('/'),
         'inLanguage' => 'pt-BR',
+        'sameAs'   => [
+            'https://uk.pinterest.com/letrasdiferentesbr/',
+        ],
         'potentialAction' => [
             '@type'       => 'SearchAction',
             'target'      => ['@type'=>'EntryPoint','urlTemplate'=> home_url('/?s={search_term_string}')],

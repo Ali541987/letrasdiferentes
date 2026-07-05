@@ -37,6 +37,10 @@
         <a href="<?php echo esc_url(home_url('/termos-de-uso/')); ?>">Termos de Uso</a>
         <a href="<?php echo esc_url(home_url('/politica-de-cookies/')); ?>">Cookies</a>
       </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Redes Sociais</p>
+        <a href="https://uk.pinterest.com/letrasdiferentesbr/" target="_blank" rel="noopener noreferrer">📌 Pinterest</a>
+      </div>
     </nav>
 
   </div>
