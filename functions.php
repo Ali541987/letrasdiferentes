@@ -154,6 +154,26 @@ function ld_get_page_meta_map() {
             'title' => 'Fontes de Letras para Copiar e Colar • 25+ Estilos',
             'desc'  => 'Gere fontes de letras diferentes: negrito, cursivo, gótico e mais 25+ estilos. Copie e cole grátis, sem cadastro, no Instagram, WhatsApp ou Word.',
         ],
+        // ── LETRAS PERSONALIZADAS ────────────────────────────────────────
+        'letras-personalizadas'  => [
+            'title' => 'Letras Personalizadas para Copiar e Colar • Grátis',
+            'desc'  => 'Gerador de letras personalizadas para nick, Instagram, Free Fire e Discord. 25+ estilos Unicode grátis. Copie e cole em 1 clique, sem cadastro.',
+        ],
+        // ── TIPOS DE LETRAS ──────────────────────────────────────
+        'tipos-de-letras'        => [
+            'title' => 'Tipos de Letras para Copiar e Colar • 25+ Fontes',
+            'desc'  => 'Descubra os tipos de letras Unicode e gere estilos para copiar e colar grátis. Cursivo, gótico, negrito e 25+ fontes para Instagram, WhatsApp e Free Fire.',
+        ],
+        // ── SÍMBOLOS PARA NICK ───────────────────────────────────
+        'simbolos-para-nick'     => [
+            'title' => 'Símbolos para Nick — 500+ para Copiar e Colar',
+            'desc'  => 'Símbolos Unicode para nick do Free Fire, Discord, Valorant e PUBG. Estrelas, coroas, crânios, katakana e 500+ caracteres. Copie em 1 clique, grátis.',
+        ],
+        // ── EMOJIS ───────────────────────────────────────────────────────
+        'emojis'                 => [
+            'title' => 'Emojis para Copiar e Colar 😍 • WhatsApp e Free Fire',
+            'desc'  => 'Copie e cole 600+ emojis para WhatsApp, Instagram, Free Fire e Discord. Unicode 16.0. Organizados por plataforma, clique e cole em qualquer app.',
+        ],
         // ── BLOG ─────────────────────────────────────────────────────────
         'blog'                   => [
             'title' => 'Blog • Letras Diferentes Online',
@@ -190,16 +210,35 @@ remove_action('wp_print_styles',     'print_emoji_styles');
 remove_action('admin_print_scripts', 'print_emoji_detection_script');
 remove_action('admin_print_styles',  'print_emoji_styles');
 
+/* ── GOOGLE ADSENSE ── */
+add_action('wp_head', function() {
+    echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880099093437517" crossorigin="anonymous"></script>' . "\n";
+}, 2);
+
 /* ── CLEAN WP HEAD ── */
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'wlwmanifest_link');
 remove_action('wp_head', 'rsd_link');
 
+/* ── ROBOTS.TXT: point to sitemap_index.xml directly (no redirect) ──
+ * WP core outputs sitemap.xml which 301s to sitemap_index.xml.
+ * GSC does not follow sitemap redirects, so it never fetches the sitemap.
+ * This filter writes the correct URL so GSC can auto-discover it.
+ */
+add_filter('robots_txt', function($output) {
+    return str_replace(
+        'Sitemap: ' . home_url('/sitemap.xml'),
+        'Sitemap: ' . home_url('/sitemap_index.xml'),
+        $output
+    );
+}, 99);
+
 /* ── SITEMAP PAGE TEMPLATE ── */
 add_filter('theme_page_templates', function($tpls) {
     $tpls['page-templates/page-blog.php']      = 'Blog';
     $tpls['page-templates/page-platform.php']  = 'Página de Plataforma';
-    $tpls['page-templates/page-simbolos.php']  = 'Símbolos';
+    $tpls['page-templates/page-simbolos.php']       = 'Símbolos';
     $tpls['page-templates/page-fontes-de-letras.php'] = 'Fontes de Letras';
+    $tpls['page-templates/page-emojis.php']         = 'Página de Emojis';
     return $tpls;
 });

@@ -64,7 +64,7 @@ $platforms = [
 <p>Ao combinar letras personalizadas com emojis relevantes ao seu nicho — 📸 para fotografia, 💄 para beleza, 🎵 para música, 🏋️ para fitness — você cria uma bio visualmente coerente que comunica identidade antes mesmo de o visitante processar o texto completo. Cada caractere Unicode conta como um único caractere no limite de 150 da bio, então você não perde espaço ao usar letras estilizadas.</p>
 <h2>Modificador de letras para Instagram: entenda como funciona</h2>
 <p>Um modificador de letras é qualquer ferramenta que converte texto padrão em caracteres Unicode estilizados. Existem dezenas de opções disponíveis — aplicativos, extensões de navegador e sites — mas todas funcionam com o mesmo princípio: substituem cada letra do seu texto pelo equivalente visual em um bloco Unicode específico.</p>
-<p>Nosso gerador de letras para Instagram foi desenvolvido especificamente para o mercado brasileiro, com os 25+ estilos mais usados nas redes sociais do país. Funciona 100% no navegador, sem coleta de dados pessoais, sem cadastro e sem anúncios que interrompam o processo. Todos os caracteres gerados são compatíveis com Unicode 15.0, garantindo exibição correta em iPhones com iOS 16+, dispositivos Android com qualquer versão recente e no Instagram Web. O resultado aparece idêntico para qualquer seguidor que visitar seu perfil, independentemente do dispositivo ou sistema operacional que ele use.</p>
+<p>Nosso <a href="/letras-personalizadas/">gerador de letras personalizadas</a> foi desenvolvido especificamente para o mercado brasileiro, com os 25+ estilos mais usados nas redes sociais do país. Funciona 100% no navegador, sem coleta de dados pessoais, sem cadastro e sem anúncios que interrompam o processo. Todos os caracteres gerados são compatíveis com Unicode 15.0, garantindo exibição correta em iPhones com iOS 16+, dispositivos Android com qualquer versão recente e no Instagram Web. O resultado aparece idêntico para qualquer seguidor que visitar seu perfil, independentemente do dispositivo ou sistema operacional que ele use.</p>
 <h2>Letras bonitas para Instagram: quais são as tendências</h2>
 <p>O uso de fontes personalizadas no Instagram continua evoluindo. As letras estéticas dominam perfis de moda, lifestyle e fotografia. As fontes cursivas Bold ganham espaço entre empreendedores e coaches digitais que usam o Instagram como vitrine de negócios. As <a href="/letras-goticas/">letras góticas Fraktur</a> estão em alta entre músicos, artistas e criadores de conteúdo voltados ao público jovem, especialmente em Reels. As letras em negrito Unicode se destacam em perfis educacionais e motivacionais, onde legibilidade e estilo precisam coexistir.</p>
 <p>Uma tendência crescente é a tipografia mista na mesma bio: uma palavra em cursivo, outra em estético, criando efeito visual que chama atenção sem parecer excessivo. Nosso gerador facilita essa prática — gere o mesmo texto em múltiplos estilos, copie partes diferentes e combine-as antes de colar no Instagram para criar uma composição tipográfica única e personalizada.</p>',
@@ -176,7 +176,7 @@ $platforms = [
 <p><strong>Nick bilíngue estilizado</strong>: combine caracteres em português com letras em negrito ou cursivo, criando um nick que se destaca por ser único e personalizado para o jogador brasileiro.</p>
 <h2>Gerador de nick FF: como aproveitar ao máximo</h2>
 <p>Nosso gerador de letras FF foi otimizado especificamente para jogadores de Free Fire. Diferentemente de geradores genéricos, testamos todos os estilos disponíveis no Free Fire para garantir compatibilidade máxima. Os estilos marcados com maior compatibilidade no nosso gerador são os que funcionam de forma consistente tanto em dispositivos Android quanto em iOS.</p>
-<p>Para nick personalizado Free Fire, recomendamos experimentar pelo menos 3 a 5 estilos diferentes antes de decidir. Cada estilo transmite uma personalidade diferente: o negrito passa força e seriedade; o cursivo transmite elegância; o gótico comunica poder e intimidação; o borbulha sugere descontração e bom humor. O estilo ideal é aquele que melhor representa como você quer ser percebido pela comunidade do Free Fire.</p>
+<p>Para <a href="/letras-personalizadas/">nick personalizado Free Fire</a>, recomendamos experimentar pelo menos 3 a 5 estilos diferentes antes de decidir. Cada estilo transmite uma personalidade diferente: o negrito passa força e seriedade; o cursivo transmite elegância; o gótico comunica poder e intimidação; o borbulha sugere descontração e bom humor. O estilo ideal é aquele que melhor representa como você quer ser percebido pela comunidade do Free Fire.</p>
 <p>Lembre-se de que a troca de nick tem um custo (Placa de Troca de Nick), então vale dedicar um tempo extra para escolher o melhor estilo e garantir que o nick gerado caiba dentro do limite de 12 caracteres do Free Fire antes de confirmar a mudança. Para uso das mesmas letras nas redes sociais, veja nosso guia de <a href="/letras-para-instagram/">letras para Instagram</a> e <a href="/letras-bonitas/">letras bonitas</a>.</p>',
     ],
     'letras-para-tiktok' => [
@@ -286,6 +286,153 @@ $platforms = [
 <p><strong>Negrito Cursivo (𝓐𝓑𝓒)</strong>: combina o impacto visual do negrito com a elegância do cursivo. Excelente para nomes de perfil e página, e para o campo "Sobre" onde se deseja máxima distinção visual. Confira outros usos desse estilo na nossa página de <a href="/letras-cursivas/">letras cursivas</a>.</p>
 <p><strong>Pequenas Maiúsculas (ᴀʙᴄ)</strong>: visual refinado e discreto. Perfeito para rodapé de publicações, créditos e informações secundárias que precisam se distinguir sem competir visualmente com o conteúdo principal.</p>',
     ],
+    'letras-personalizadas' => [
+        'icon'   => '🎨',
+        'name'   => 'Letras Personalizadas',
+        'title'  => 'Letras Personalizadas para Copiar e Colar',
+        'desc'   => 'Gere letras personalizadas para nick, Instagram, Free Fire e Discord. 25+ estilos grátis — copie em 1 clique.',
+        'color'  => '#7c3aed',
+        'filter' => 'all',
+        'tips'   => [
+            ['icon'=>'🎮','title'=>'Para nick e jogos','desc'=>'Digite seu nome, escolha o estilo e cole no nick do Free Fire, Discord ou Mobile Legends. Estilos testados e compatíveis.'],
+            ['icon'=>'📸','title'=>'Para Instagram e TikTok','desc'=>'Personalize nome e bio com cursivo, gótico ou duplo contorno. Cada letra Unicode conta como 1 caractere no limite da bio.'],
+            ['icon'=>'💡','title'=>'Combine estilos','desc'=>'Gere o mesmo texto em vários estilos e misture partes de cada um. Primeira palavra em cursivo, segunda em negrito — crie combinações únicas.'],
+        ],
+        'schema_faq' => true,
+        'faq'    => [
+            ['q'=>'Como fazer letras personalizadas?',
+             'a'=>'Digite seu texto no gerador acima. Em segundos aparecem mais de 25 estilos de letras personalizadas baseados no padrão Unicode. Toque no estilo desejado para copiar. Depois cole em qualquer app — WhatsApp, Instagram, Free Fire, Discord — sem instalar nada.'],
+            ['q'=>'Qual o melhor site de letras personalizadas grátis?',
+             'a'=>'O Letras Diferentes Online gera mais de 25 estilos de letras personalizadas baseados no Unicode Consortium — cursivo, gótico Fraktur, duplo contorno, negrito, estético e muito mais. Tudo grátis, sem cadastro, no navegador do celular ou computador.'],
+            ['q'=>'Letras personalizadas para nick: como colocar no Free Fire?',
+             'a'=>'Gere as letras aqui, copie o estilo escolhido e abra o Free Fire (Garena). Vá em Perfil, toque no lápis ao lado do nick, apague o nome atual e cole o novo. O Free Fire aceita a maioria dos caracteres Unicode em nomes de até 12 caracteres.'],
+            ['q'=>'Como usar letras personalizadas no Instagram?',
+             'a'=>'Copie o texto estilizado gerado aqui, abra o Instagram (Meta), toque em Editar perfil e cole no campo Nome ou Bio. O Instagram aceita qualquer caractere Unicode nesses campos sem restrição. Funciona em Android, iPhone e Instagram Web.'],
+            ['q'=>'Letras personalizadas funcionam no iPhone e Android?',
+             'a'=>'Sim. Como são caracteres do padrão Unicode, funcionam em qualquer sistema operacional moderno. No iPhone o visual é renderizado pelo Apple Color Emoji e fontes do iOS. No Android usa as fontes Noto (Google). O código do caractere é idêntico nos dois — apenas o desenho visual pode variar levemente.'],
+            ['q'=>'O que é um gerador de letras personalizadas?',
+             'a'=>'É uma ferramenta que converte texto normal em caracteres Unicode estilizados. Nosso gerador usa os blocos Mathematical Bold, Mathematical Script, Mathematical Fraktur e outros definidos pelo Unicode Consortium para produzir mais de 25 estilos diferentes a partir do texto que você digitar.'],
+            ['q'=>'Como usar letras personalizadas no Discord?',
+             'a'=>'Copie o texto gerado aqui e cole no campo de nome de usuário, no servidor de Discord (Discord Inc.) ou em mensagens. O Discord aceita caracteres Unicode em nomes de perfil e mensagens. Para servidores com restrições de caracteres especiais, use estilos mais simples como negrito ou itálico Unicode.'],
+            ['q'=>'Letras personalizadas pequenas: o que são?',
+             'a'=>'São os caracteres do bloco Modifier Letter Small Capitals (U+1D00 a U+1D2F) do Unicode, que reproduzem letras em tamanho reduzido com visual elegante e minimalista. Exemplo: ʟᴇᴛʀᴀꜱ ᴘᴇQᴜᴇɴᴀꜱ. São muito usadas em bios do Instagram e TikTok por criadores que preferem estética discreta.'],
+        ],
+        'article' => '<h2>O que são letras personalizadas e como funcionam</h2>
+<p>Letras personalizadas são caracteres do padrão <strong>Unicode</strong>, mantido pelo <strong>Unicode Consortium</strong>, que visualmente reproduzem estilos tipográficos como cursivo, gótico, negrito e outros, mas funcionam como texto comum. Isso significa que você copia, cola e envia em qualquer app sem instalar fontes, sem pagar planos premium e sem precisar de acesso root no celular.</p>
+<p>O padrão Unicode contém mais de 130.000 caracteres distribuídos em dezenas de blocos. Para personalização de texto, os blocos mais usados são o <strong>Mathematical Bold</strong> (U+1D400), o <strong>Mathematical Script</strong> (U+1D49C), o <strong>Mathematical Fraktur</strong> (U+1D504) e o <strong>Mathematical Double-Struck</strong> (U+1D538). Cada bloco contém versões estilizadas das 26 letras do alfabeto latino em maiúscula e minúscula. Nosso gerador converte qualquer texto que você digitar nesses blocos em tempo real, apresentando mais de 25 estilos lado a lado para facilitar a escolha.</p>
+
+<h2>Letras personalizadas para nick: Free Fire, Discord e jogos</h2>
+<p>Nos jogos, o nick é a identidade pública do jogador em lobbies, ranking e transmissões. O <strong>Free Fire</strong>, desenvolvido pela <strong>Garena</strong> e líder de downloads no Brasil, aceita caracteres Unicode no campo de nome (limite de 12 caracteres). Os estilos com melhor compatibilidade testada no FF são o Fraktur Gótico (𝔄𝔅𝔊), o Negrito Unicode (𝐀𝐁𝐂) e o Script Cursivo Bold (𝓐𝓑𝓒). Para colocar: gere aqui, copie, abra o Free Fire, vá em Perfil, toque no lápis e cole.</p>
+<p>O <strong>Discord</strong>, plataforma de comunicação da <strong>Discord Inc.</strong> com mais de 500 milhões de usuários registrados, aceita Unicode em nomes de usuário e mensagens. Letras personalizadas no Discord são muito usadas por administradores de servidores para destacar avisos importantes, por membros que querem um nick único e por bots com nomes estilizados. O negrito Unicode é o estilo mais usado no Discord por manter alta legibilidade nos temas claro e escuro da plataforma.</p>
+<p>No <strong>Mobile Legends</strong>, no <strong>PUBG Mobile</strong> e em outros títulos da Garena e de desenvolvedoras asiáticas, a compatibilidade com Unicode costuma ser alta. Sempre teste o nick gerado antes de confirmar a troca para garantir que todos os caracteres aparecem corretamente no jogo específico.</p>
+
+<h2>Letras personalizadas para Instagram e TikTok</h2>
+<p>O <strong>Instagram</strong>, pertencente à <strong>Meta Platforms</strong>, aceita qualquer caractere Unicode no nome de exibição e na bio (limite de 150 caracteres). O nome de exibição é o campo de maior impacto visual: aparece nas pesquisas, no feed de seguidores e na seção Explorar. Uma letra personalizada cursiva ou em duplo contorno nesse campo cria diferenciação imediata em relação a nomes em texto comum.</p>
+<p>Na bio, a estratégia mais eficaz combina camadas tipográficas: primeira linha em Script Cursivo Bold (𝓐𝓑𝓒) para o nome ou nicho, segunda linha em Pequenas Maiúsculas (ᴀʙᴄ) para especialidade ou localização, terceira linha em texto normal para o link ou CTA. Cada letra Unicode conta como um caractere no limite de 150, sem penalidade por usar estilos personalizados.</p>
+<p>O <strong>TikTok</strong>, da <strong>ByteDance</strong>, tem limite de 80 caracteres na bio e aceita Unicode no nome de exibição sem restrição. O estilo Estético Espaçado (Fullwidth Latin, U+FF21) é muito popular no TikTok por criar visual clean e moderno associado à estética da plataforma. Para o <strong>WhatsApp</strong> (Meta), os mesmos caracteres funcionam em mensagens, status e nome de perfil, sem necessidade de nenhuma configuração adicional.</p>
+
+<h2>Como criar letras personalizadas em 3 passos</h2>
+<p>O processo completo leva menos de 30 segundos:</p>
+<ol>
+<li><strong>Digite o texto</strong> no campo do gerador acima. Pode ser seu nome, apelido, nick de jogo, frase para bio ou qualquer palavra que queira personalizar.</li>
+<li><strong>Escolha o estilo</strong>. Use os filtros por categoria — Cursivo, Gótico, Borbulha, Especial — para navegar entre os 25+ estilos disponíveis. Todos aparecem lado a lado para comparação direta.</li>
+<li><strong>Copie e cole</strong>. Toque no card do estilo escolhido para copiar o texto personalizado. Abra o app de destino e cole com um toque longo seguido de "Colar". Pronto.</li>
+</ol>
+<p>O gerador funciona diretamente no navegador do celular ou computador, sem cadastro, sem instalação de aplicativo e sem limite de usos. Todo o processamento acontece localmente — seu texto nunca é enviado a servidores externos.</p>
+
+<h2>Os 25+ estilos de letras personalizadas disponíveis</h2>
+<p><strong>Script Cursivo Bold (𝓐𝓑𝓒)</strong>: o estilo mais popular no Brasil. Traços espessos e fluidos inspirados na caligrafia Spencerian americana do século XIX. Perfeito para bio do Instagram, nome de perfil e mensagens especiais no WhatsApp.</p>
+<p><strong>Script Elegante (𝒜ℬ𝒞)</strong>: versão de traço fino do cursivo. Máxima sofisticação para perfis de beleza, moda e lifestyle premium.</p>
+<p><strong>Fraktur Gótico (𝔄𝔅𝔊)</strong>: tipografia medieval alemã digitalizada pelo Unicode Consortium. O estilo mais procurado para nicks épicos no Free Fire e perfis de gaming, música e cultura alternativa.</p>
+<p><strong>Duplo Contorno (𝔸𝔹ℂ)</strong>: letras construídas com linhas paralelas duplas, originalmente usadas em notação matemática para representar conjuntos como ℕ, ℤ e ℝ. Visual único e moderno.</p>
+<p><strong>Negrito Unicode (𝗔𝗕𝗖)</strong>: versão em negrito do alfabeto padrão. Máxima legibilidade com forte presença visual — essencial para posts de Facebook, títulos e comunicados em grupos de WhatsApp.</p>
+<p><strong>Letras Pequenas (ᴀʙᴄ)</strong>: pequenas maiúsculas do bloco Modifier Letter Small Capitals. Visual refinado e minimalista, muito usado em bios do TikTok e Instagram por criadores de conteúdo com estética clean.</p>
+<p><strong>Borbulha (Ⓐ Ⓑ Ⓒ)</strong>: letras dentro de círculos com visual divertido. Popular em perfis de humor, entretenimento e conteúdo jovem.</p>
+<p><strong>Estético Espaçado</strong>: letras em largura dupla com espaçamento ampliado, associado ao movimento aesthetic nas redes sociais. Muito eficaz para frases curtas e slogans de bio.</p>
+
+<h2>Letras personalizadas no celular: iPhone e Android</h2>
+<p>Qualquer caractere Unicode gerado aqui funciona em Android e iPhone sem configuração adicional. No <strong>Android</strong>, o visual é renderizado pelas fontes <strong>Noto</strong> do Google, o conjunto tipográfico mais completo disponível para o padrão Unicode. No <strong>iPhone</strong> (iOS da Apple), a renderização usa as fontes nativas do sistema — o resultado visual pode ser levemente diferente do Android, mas o caractere é idêntico e o significado é o mesmo.</p>
+<p>Em ambas as plataformas, as letras personalizadas geradas aqui aparecem corretamente para quem recebe o texto, independentemente do dispositivo do destinatário. Não há necessidade de o receptor ter qualquer configuração especial, app instalado ou permissão habilitada. Para quem usa <a href="/letras-para-free-fire/">Free Fire</a> em Android ou iPhone, os estilos compatíveis são os mesmos nos dois sistemas. E para personalização de perfis em <a href="/letras-para-instagram/">Instagram</a>, <a href="/letras-para-whatsapp/">WhatsApp</a> ou qualquer rede social, os caracteres Unicode criados aqui funcionam de forma idêntica seja qual for o sistema operacional do seu celular.</p>',
+    ],
+
+    'tipos-de-letras' => [
+        'icon'       => '🔤',
+        'name'       => 'Tipos de Letras',
+        'title'      => 'Tipos de Letras para Copiar e Colar',
+        'desc'       => 'Conheça todos os tipos de letras e gere estilos Unicode para copiar e colar. Gerador grátis com 25+ fontes: cursivo, gótico, negrito, borbulha e muito mais.',
+        'color'      => '#1e40af',
+        'filter'     => 'all',
+        'schema_faq' => true,
+        'tips'       => [
+            ['icon'=>'📚','title'=>'Os 4 tipos do alfabeto','desc'=>'Bastão maiúscula, bastão minúscula, cursiva maiúscula e cursiva minúscula formam os 4 tipos de letras ensinados nas escolas brasileiras. Cada um tem traçado e função próprios.'],
+            ['icon'=>'🖋','title'=>'Serif ou sans-serif?','desc'=>'Letras com serifa (Times New Roman, Garamond) são clássicas e formais. Letras sem serifa (Arial, Helvetica) são modernas e limpas. A escolha depende do contexto: impresso ou digital, formal ou casual.'],
+            ['icon'=>'✨','title'=>'Unicode para copiar e colar','desc'=>'Nosso gerador converte qualquer texto em 25+ tipos de letras Unicode — cursivo, gótico Fraktur, negrito, borbulha, duplo contorno — prontos para colar no Instagram, WhatsApp, Free Fire e Discord.'],
+        ],
+        'faq'        => [
+            ['q'=>'Quais são os tipos de letras?',
+             'a'=>'Os principais tipos de letras são cinco: (1) Serif, com pequenos traços nas extremidades dos caracteres, como Times New Roman e Garamond; (2) Sans-serif, sem traços, como Arial e Helvetica; (3) Script e cursiva, que imitam escrita à mão; (4) Display e decorativa, para títulos e cartazes; (5) Monospace, com largura fixa por caractere, como Courier New. Para personalização digital, existem ainda os estilos Unicode para copiar e colar em redes sociais e jogos.'],
+            ['q'=>'Quais são os 4 tipos de letras do alfabeto?',
+             'a'=>'Na tradição escolar brasileira, os 4 tipos de letras do alfabeto são: letra bastão maiúscula (A, B, C), letra bastão minúscula (a, b, c), letra cursiva maiúscula e letra cursiva minúscula. Esses quatro tipos são a base do ensino de escrita no Brasil e aparecem nos alfabetos para imprimir usados por professores do fundamental I.'],
+            ['q'=>'Qual a diferença entre tipo de letra e fonte?',
+             'a'=>'Tipo de letra (typeface) é a família tipográfica com identidade visual própria, como Helvetica ou Garamond. Fonte (font) é uma variação específica dentro dessa família: peso, tamanho e estilo — Helvetica Bold 12pt, por exemplo. Popularmente os dois termos são usados como sinônimos, mas na tipografia técnica são conceitos distintos.'],
+            ['q'=>'Como fazer tipos de letras diferentes para copiar?',
+             'a'=>'Use o gerador acima: digite o texto, escolha o estilo (cursivo, gótico, negrito, borbulha e outros) e toque no card para copiar. Cole em qualquer app — Instagram, WhatsApp, Free Fire, Discord — sem instalar nada. Os estilos são baseados no padrão Unicode e funcionam em Android, iPhone e computador.'],
+            ['q'=>'Tipos de letras para tatuagem: quais são os mais usados?',
+             'a'=>'Os tipos de letras mais usados em tatuagens são: Script (cursiva fluida desenhada à mão), Old English ou Blackletter (gótico medieval, popular em costelas e torso), lettering artístico feito pelo tatuador, sans-serif minimalista e serif clássico. Para visualizar o estilo gótico antes de tatuar, use o filtro Fraktur Gótico no gerador desta página.'],
+            ['q'=>'Qual o melhor site para gerar tipos de letras grátis?',
+             'a'=>'O Letras Diferentes Online é um dos geradores de tipos de letras Unicode mais completos do Brasil, com 25+ estilos: cursivo, gótico Fraktur, duplo contorno, negrito, estético, borbulha e muito mais. Tudo grátis, sem cadastro, no celular ou computador. Basta digitar, escolher o estilo e copiar.'],
+            ['q'=>'Tipos de letras para Instagram: quais funcionam melhor?',
+             'a'=>'No Instagram, os tipos de letras Unicode mais usados são: Script Cursivo Bold (𝓐𝓑𝓒) para bio e nome de perfil, Negrito Unicode (𝗔𝗕𝗖) para posts e destaques, Duplo Contorno (𝔸𝔹ℂ) para nicks artísticos e Estético Espaçado para bios minimalistas. Todos funcionam no nome de exibição e na bio — limite de 150 caracteres.'],
+            ['q'=>'Tipos de letras cursivas: o que são e como usar?',
+             'a'=>'Letras cursivas Unicode são caracteres do bloco Mathematical Script (U+1D49C) que reproduzem escrita cursiva e caligráfica. Existem dois estilos principais: Script Elegante (𝒜ℬ𝒞) com traços finos, e Script Cursivo Bold (𝓐𝓑𝓒) com traços espessos. Use no Instagram, WhatsApp, TikTok e Free Fire sem precisar instalar nenhuma fonte.'],
+        ],
+        'article'    => '<h2>Quais são os tipos de letras? Guia completo</h2>
+<p>Os tipos de letras se dividem em cinco famílias tipográficas reconhecidas por tipógrafos e designers no mundo inteiro. As <strong>letras serif</strong> têm pequenos traços perpendiculares nas extremidades dos caracteres — chamados de serifas — que guiam o olho ao longo da linha de texto. Esse recurso as torna referência em jornais, livros e documentos formais por séculos. A Times New Roman, criada pelo tipógrafo britânico Stanley Morison para o jornal The Times em 1931, e a Garamond, desenvolvida pelo tipógrafo francês <strong>Claude Garamond</strong> no século XVI, são os dois exemplos mais citados em cursos de tipografia. A <strong>Adobe Systems</strong>, por meio do Adobe Fonts (antigo Typekit), e o <strong>Google Fonts</strong> (Google LLC) mantêm centenas de variações de fontes serif disponíveis gratuitamente para designers e desenvolvedores.</p>
+<p>As <strong>letras sans-serif</strong> eliminam as serifas, produzindo caracteres limpos, geométricos e de leitura rápida em telas. A Helvetica, criada pelo designer suíço <strong>Max Miedinger</strong> em 1957 para a fundição Haas Type Foundry, é a fonte sem serifa mais influente do século XX. Arial, Futura e a San Francisco da <strong>Apple Inc.</strong> pertencem à mesma família. As letras sans-serif dominam interfaces digitais, aplicativos e redes sociais: o Instagram da <strong>Meta Platforms</strong> usa variação do Optimistic Display; o Android do <strong>Google</strong> usa Roboto.</p>
+<p>As <strong>letras script e cursivas</strong> imitam a escrita à mão, com traços fluidos. As <strong>letras display e decorativas</strong> são criadas para títulos e cartazes de impacto — Bebas Neue, Impact e Lobster são os exemplos mais conhecidos no design brasileiro. As <strong>fontes monospace</strong> têm largura fixa por caractere, padrão em editores de código: Courier New, Monaco e JetBrains Mono são referências. E para personalização imediata sem instalar fontes, existe a categoria prática dos <strong>tipos de letras Unicode</strong> — caracteres copiáveis que funcionam em qualquer app moderno.</p>
+
+<h2>Os 4 tipos de letras do alfabeto: bastão e cursiva</h2>
+<p>Na tradição pedagógica brasileira, estabelecida como referência pelo <strong>Ministério da Educação (MEC)</strong> para o processo de alfabetização, os professores do ensino fundamental I ensinam quatro tipos de letras do alfabeto organizados em dois pares.</p>
+<p><strong>Letra bastão maiúscula</strong>: traços retos e sem conexão entre caracteres. A, B, C, D. É a primeira ensinada por ter traçado mais simples e reconhecimento visual imediato. Aparece em placas, sinalizações e materiais de referência para leitura.</p>
+<p><strong>Letra bastão minúscula</strong>: versão em letras pequenas do mesmo estilo reto. a, b, c, d. Forma a base da leitura em livros didáticos, jornais e materiais impressos de uso cotidiano no Brasil.</p>
+<p><strong>Letra cursiva maiúscula</strong>: estilo com traços arredondados e fluidos, conectados entre as letras de uma palavra. Historicamente associada à escrita formal e assinaturas. Exige maior controle motor e coordenação, razão pela qual costuma ser ensinada a partir do 2º ano do fundamental.</p>
+<p><strong>Letra cursiva minúscula</strong>: a versão minúscula do estilo cursivo, base da escrita manual cotidiana nas escolas brasileiras. Os "alfabetos com 4 tipos de letras para imprimir" — amplamente usados por professores e disponíveis em plataformas educacionais — mostram os quatro estilos lado a lado para referência dos alunos.</p>
+<p>Para usos digitais, o Script Elegante Unicode (𝒜ℬ𝒞) reproduz visualmente a cursiva fina, enquanto o Script Cursivo Bold (𝓐𝓑𝓒) representa a cursiva de traço espesso. Ambos estão disponíveis no gerador acima para copiar e colar em qualquer plataforma.</p>
+
+<h2>Tipos de letras para design: serif, sans-serif, script e display</h2>
+<p>No design gráfico e no branding, o tipo de letra é uma decisão estratégica que comunica valores antes mesmo de o texto ser lido. Cada família transmite uma personalidade diferente.</p>
+<p><strong>Serif</strong>: autoridade, tradição e sofisticação. Padrão de logotipos de marcas de luxo, veículos de imprensa e instituições financeiras. A Caslon, criada pelo tipógrafo inglês <strong>William Caslon</strong> no século XVIII, foi a fonte base dos primeiros documentos impressos nos Estados Unidos. A <strong>Google Fonts</strong> oferece Playfair Display, Merriweather e Lora como referências serif gratuitas de alta qualidade.</p>
+<p><strong>Sans-serif</strong>: modernidade, clareza e neutralidade. O padrão de interfaces digitais desde os anos 1990. A <strong>Apple Inc.</strong> usa San Francisco; o <strong>Google</strong> usa Product Sans; a <strong>Microsoft</strong> usa Segoe UI no Windows. Helvetica e Arial continuam sendo as referências mais reconhecíveis globalmente.</p>
+<p><strong>Script e cursiva</strong>: personalidade humana, criatividade e afeto. Muito usadas em branding de gastronomia, beleza, moda artesanal e pequenos negócios. Brush Script, Pacifico e Dancing Script — disponível gratuitamente no <strong>Google Fonts</strong> — são exemplos amplamente usados no design brasileiro. Nosso gerador de tipos de letras produz equivalentes Unicode do estilo script para uso imediato em redes sociais.</p>
+<p><strong>Display e decorativa</strong>: impacto visual máximo para títulos, capas e cartazes. Bebas Neue, Impact e Lobster são as mais usadas em conteúdo digital brasileiro. Ferramentas como <strong>Canva</strong> e o <strong>Adobe Express</strong> (Adobe Systems) oferecem acesso direto a fontes display para criadores sem formação técnica em design.</p>
+<p><strong>Monospace</strong>: legibilidade técnica com largura fixa. Padrão em editores de código como Visual Studio Code da <strong>Microsoft</strong>, terminais e documentação técnica. Courier New, Monaco e JetBrains Mono são as referências do segmento.</p>
+
+<h2>Tipos de letras Unicode para copiar e colar</h2>
+<p>O <strong>Unicode Consortium</strong>, organização sem fins lucrativos fundada em 1991 com sede em Mountain View, Califórnia, é responsável pelo padrão de caracteres usado em todos os sistemas operacionais modernos. A versão Unicode 16.0, lançada em 2024, define mais de 149.813 caracteres, incluindo blocos inteiros com letras estilizadas que reproduzem visualmente diferentes tipos de fontes tipográficas — sem precisar instalar nenhuma fonte no dispositivo.</p>
+<p>Os blocos mais usados para personalização de tipos de letras são:</p>
+<p><strong>Mathematical Bold (U+1D400)</strong>: produz letras em negrito — 𝐀𝐁𝐂𝐃. Aceito sem restrições no Instagram e Facebook da <strong>Meta Platforms</strong>, no WhatsApp da Meta, no Discord da <strong>Discord Inc.</strong> e no Free Fire da <strong>Garena</strong>.</p>
+<p><strong>Mathematical Script (U+1D49C)</strong>: gera letras cursivas elegantes — 𝒜ℬ𝒞𝒟. O tipo de letra mais procurado para bio e nome de perfil no Instagram. Script Elegante tem traço fino; Script Bold (U+1D4D0) tem traço espesso.</p>
+<p><strong>Mathematical Fraktur (U+1D504)</strong>: letras góticas medievais baseadas na tipografia Fraktur alemã — 𝔄𝔅𝔊𝔇. Um dos tipos de letras mais buscados para nicks no Free Fire e em jogos de gaming da <strong>Garena</strong>, Supercell e Riot Games.</p>
+<p><strong>Mathematical Double-Struck (U+1D538)</strong>: letras com traço duplo — 𝔸𝔹ℂ𝔻. Originalmente criadas para notação matemática de conjuntos numéricos (ℕ, ℤ, ℝ), ganharam uso popular em identidades visuais digitais.</p>
+<p>No iPhone, os caracteres Unicode são renderizados pelas fontes nativas do iOS da <strong>Apple Inc.</strong>, incluindo San Francisco e o conjunto <strong>Apple Color Emoji</strong>. No Android, as fontes <strong>Noto</strong> do Google garantem cobertura completa do padrão Unicode. O visual pode variar levemente entre plataformas, mas o caractere é o mesmo e qualquer pessoa que receba o texto verá o mesmo estilo, independentemente do dispositivo.</p>
+
+<h2>Tipos de letras para tatuagem e cartaz</h2>
+<p>A escolha do tipo de letra certo define o resultado final tanto em tatuagens quanto em peças gráficas. Para <strong>tatuagens</strong>, os estilos mais usados no Brasil são:</p>
+<p><strong>Script e lettering</strong>: caligrafia fluida desenhada à mão pelo tatuador, adaptada ao corpo e à proposta do cliente. O estilo mais escolhido no Brasil para frases, nomes e citações em costelas, braços e pescoço. Artistas como Sailor Jerry e Ed Hardy popularizaram o script tatuado no Ocidente, e o lettering chegou ao Brasil como arte urbana nos anos 2000.</p>
+<p><strong>Old English e Blackletter</strong>: o tipo gótico medieval Fraktur, muito usado em tatuagens de peito, costas e torso. Comunica força, identidade e peso visual imediato. Para visualizar o estilo digitalmente antes de decidir a tatuagem, selecione o filtro Gótico Fraktur no gerador acima e veja como o seu nome ou frase fica nesse tipo de letra.</p>
+<p><strong>Sans-serif minimalista</strong>: tendência crescente de tatuagens de traço fino e tipografia limpa, muito alinhada ao minimalismo contemporâneo. Arial Narrow, Futura Light e suas variações são as referências mais consultadas.</p>
+<p>Para <strong>cartazes e materiais impressos</strong>, a regra base é o contraste tipográfico: um tipo display de impacto para o título principal, um serif ou sans-serif limpo para o corpo do texto e as informações secundárias. A hierarquia tipográfica — tamanhos diferentes para título, subtítulo e corpo — é o fundamento do design de cartazes ensinado em cursos como os da <strong>ESPM</strong> e da <strong>FAUUSP</strong>. Para letras de título com estilo próprio sem precisar de software de design, use os estilos do gerador desta página.</p>
+
+<h2>Como gerar tipos de letras diferentes online em 3 passos</h2>
+<p>O gerador de tipos de letras funciona direto no navegador, sem instalação e sem cadastro. Todo o processamento acontece localmente — o texto que você digitar nunca é enviado a nenhum servidor externo.</p>
+<ol>
+<li><strong>Digite o texto</strong> no campo acima. Pode ser seu nome, nick para jogos, frase para bio do Instagram, palavra para cartaz ou qualquer texto que queira transformar em um tipo de letra diferente.</li>
+<li><strong>Escolha o estilo</strong>. Os filtros por categoria — Cursivo, Gótico, Negrito, Borbulha, Especial — mostram apenas os tipos de letras de cada grupo. Todos os 25+ estilos aparecem ao mesmo tempo para comparação direta antes de decidir.</li>
+<li><strong>Copie e cole</strong>. Toque no card do tipo de letra escolhido para copiar automaticamente para a área de transferência. Abra o app de destino — <a href="/letras-para-instagram/">Instagram</a>, <a href="/letras-para-whatsapp/">WhatsApp</a>, <a href="/letras-para-free-fire/">Free Fire</a> ou qualquer outro — e cole com um toque longo seguido de "Colar".</li>
+</ol>
+<p>O gerador é compatível com Android, iPhone, Windows e Mac. Os caracteres gerados seguem o padrão Unicode 16.0 do <strong>Unicode Consortium</strong> e funcionam em qualquer aplicativo, sistema ou dispositivo moderno. Para usos específicos por plataforma, acesse nossas páginas dedicadas: <a href="/letras-cursivas/">letras cursivas</a> para o estilo caligráfico, <a href="/letras-goticas/">letras góticas</a> para o estilo medieval, <a href="/letras-personalizadas/">letras personalizadas</a> para nicks e bio, e <a href="/simbolos/">símbolos para copiar</a> para decoração adicional.</p>',
+    ],
+
     /* Style pages */
     'letras-cursivas' => [
         'icon'    => '𝓒',
@@ -427,7 +574,7 @@ $platforms = [
 </ul>
 <h2>Letras bonitas para copiar — tatuar e uso offline</h2>
 <p>Além das redes sociais, as letras bonitas Unicode são muito usadas como referência visual para tatuagens e artes manuais. O estilo Script Cursivo Bold é uma das principais referências para tatuadores que trabalham com caligrafia e lettering, pois reproduz digitalmente o traço da escrita Spencerian que inspira muitos designs de tatuagem. O Script Elegante é usado como referência para tatuagens de estilo fino line (fine line tattoo), onde a delicadeza do traço é o elemento central do design.</p>
-<p>Para nicks em jogos como <a href="/letras-para-free-fire/">Free Fire</a>, PUBG Mobile e Fortnite, as letras bonitas cursivas são populares entre jogadoras que preferem um estilo mais elegante ao visual intimidador das letras góticas. Nicks com Script Cursivo Bold se destacam nos lobbies e nas tabelas de pontuação por criarem contraste visual imediato com os nicks em texto puro da maioria dos jogadores.</p>',
+<p>Para nicks em jogos como <a href="/letras-para-free-fire/">Free Fire</a>, PUBG Mobile e Fortnite, as <a href="/letras-personalizadas/">letras bonitas personalizadas</a> cursivas são populares entre jogadoras que preferem um estilo mais elegante ao visual intimidador das letras góticas. Nicks com Script Cursivo Bold se destacam nos lobbies e nas tabelas de pontuação por criarem contraste visual imediato com os nicks em texto puro da maioria dos jogadores.</p>',
     ],
     'letras-para-bio' => [
         'icon'    => '📝',
@@ -663,6 +810,8 @@ ld_schema_software(
     </div>
     <div class="links-grid">
       <a class="links-card" href="<?php echo esc_url(home_url('/')); ?>">🏠 Todos os estilos</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/letras-personalizadas/')); ?>">🎨 Letras Personalizadas</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/tipos-de-letras/')); ?>">🔤 Tipos de Letras</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-cursivas/')); ?>">𝓒 Letras Cursivas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-goticas/')); ?>">𝔊 Letras Góticas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-bonitas/')); ?>">✨ Letras Bonitas</a>
@@ -671,6 +820,7 @@ ld_schema_software(
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-free-fire/')); ?>">🔥 Free Fire</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-tiktok/')); ?>">🎵 TikTok</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/simbolos/')); ?>">✦ Símbolos</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/simbolos-para-nick/')); ?>">⚔ Símbolos para Nick</a>
     </div>
   </div>
 </section>

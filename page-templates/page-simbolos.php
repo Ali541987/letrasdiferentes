@@ -44,7 +44,7 @@ ld_schema_software(
 <section class="plat-hero">
   <div class="plat-icon" aria-hidden="true">✦</div>
   <h1>Símbolos para Copiar e Colar</h1>
-  <p>Mais de 300 símbolos Unicode para nick, Free Fire, Instagram e WhatsApp. Clique para copiar instantaneamente.</p>
+  <p>Mais de 300 símbolos Unicode para Instagram, WhatsApp, TikTok e decoração criativa. Clique para copiar instantaneamente.</p>
 </section>
 
 <!-- SYMBOL BROWSER -->
@@ -146,7 +146,7 @@ ld_schema_software(
 <article class="content-article">
   <div class="article-wrap">
   <h2>Símbolos para Nick: como personalizar seu perfil</h2>
-  <p>Os <strong>símbolos para copiar e colar</strong> são caracteres especiais do padrão Unicode que funcionam como texto normal em qualquer plataforma. Ao contrário de imagens, eles aparecem em qualquer dispositivo — Android, iPhone, PC — sem necessidade de instalação de fontes ou apps especiais.</p>
+  <p>Os <strong>símbolos para copiar e colar</strong> são caracteres especiais do padrão Unicode que funcionam como texto normal em qualquer plataforma. Ao contrário de imagens, eles aparecem em qualquer dispositivo — Android, iPhone, PC — sem necessidade de instalação de fontes ou apps especiais. Para uso específico em nicks de jogos como Free Fire, Discord e Valorant, veja nossa coleção dedicada de <a href="<?php echo esc_url(home_url('/simbolos-para-nick/')); ?>">símbolos para nick</a> com categorias separadas por jogo.</p>
 
   <h2>Símbolos para Nick do Free Fire</h2>
   <p>O <strong>Free Fire</strong> aceita centenas de símbolos Unicode no nick. Os mais usados pelos jogadores são estrelas (★ ✦), raios (⚡), caveiras (☠ 💀), espadas (⚔), coroas (♛ 👑) e chamas (🔥). Para usar: copie o símbolo aqui, abra o app do Free Fire, vá em <strong>Perfil → lápis → cole no nick</strong>. Combine símbolos com <a href="<?php echo esc_url(home_url('/letras-para-free-fire/')); ?>">letras diferentes para Free Fire</a> para um nick ainda mais épico.</p>
@@ -170,13 +170,13 @@ ld_schema_software(
     </div>
     <div class="links-grid">
       <a class="links-card" href="<?php echo esc_url(home_url('/')); ?>">✦ Gerador de Letras</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/simbolos-para-nick/')); ?>">⚔ Símbolos para Nick</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-free-fire/')); ?>">🔥 Letras FF</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-instagram/')); ?>">📸 Letras Instagram</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-cursivas/')); ?>">𝓒 Letras Cursivas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-goticas/')); ?>">𝔊 Letras Góticas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-bio/')); ?>">📝 Letras para Bio</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-bonitas/')); ?>">✨ Letras Bonitas</a>
-      <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-whatsapp/')); ?>">💬 Letras WhatsApp</a>
     </div>
   </div>
 </section>
