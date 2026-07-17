@@ -44,6 +44,14 @@ $faq_pairs = [
      'a'=>'O gerador oferece mais de 25 estilos diferentes, organizados em categorias como clássico, cursivo, gótico, borbulha, especial e efeitos.'],
     ['q'=>'As fontes de letras funcionam em qualquer celular?',
      'a'=>'Sim. Unicode é um padrão universal suportado por Android, iPhone e todos os navegadores e sistemas operacionais modernos, sem necessidade de instalar nada.'],
+    ['q'=>'Quais são as fontes de letras mais bonitas?',
+     'a'=>'As cinco mais copiadas no gerador são: Script Cursivo Bold (𝓐𝓑𝓒), Script Cursivo simples (𝒜𝒷𝒸), Gótico Fraktur (𝔄𝔅ℭ), Duplo Contorno (𝔸𝔹ℂ) e Borbulha (Ⓐ Ⓑ Ⓒ). O Script Cursivo Bold é o favorito absoluto entre usuários brasileiros de Instagram e WhatsApp.'],
+    ['q'=>'Como criar fontes de letras no celular?',
+     'a'=>'Abra esta página no navegador do celular, digite o texto no campo do gerador, toque no estilo desejado para copiar e vá ao app de destino para colar. Funciona em Android e iPhone sem instalar nenhum aplicativo.'],
+    ['q'=>'Fontes de letras para logo: qual usar?',
+     'a'=>'Para visualizar rapidamente um conceito de logo, o Duplo Contorno e o Gótico Fraktur são os mais usados por terem traço marcante. Para um logo profissional definitivo, use uma fonte real em Canva, Adobe Illustrator ou Figma, pois logos precisam de arquivos vetoriais para escalar sem perder qualidade.'],
+    ['q'=>'Fontes de letras para Instagram e WhatsApp são as mesmas?',
+     'a'=>'Sim, os mesmos caracteres Unicode funcionam nas duas plataformas. O Instagram aceita fontes especiais no nome de exibição e na bio. O WhatsApp aceita em mensagens, status e nome de perfil.'],
 ];
 ld_schema_faq($faq_pairs);
 
@@ -253,6 +261,19 @@ ld_schema_breadcrumb([
   <p>Para textos curtos, como um nome ou uma palavra de efeito, esse custo praticamente não existe; para uma frase inteira, um estilo mais simples como negrito ou cursivo básico continua sendo mais confortável de ler. Uma prática comum entre quem busca esse efeito "diferente" sem sacrificar legibilidade é misturar estilos dentro do mesmo texto: usar um estilo mais elaborado só na primeira palavra ou no nome, e manter o restante da frase em um estilo mais neutro. O gerador facilita esse tipo de composição porque mostra o mesmo texto em todos os estilos simultaneamente. Basta copiar partes diferentes de cards diferentes e montar a combinação manualmente antes de colar no destino final.</p>
   <p>"Estilosa" e "diferente" nem sempre significam o estilo mais ornamentado, porém. Em vários contextos, como um nome de perfil profissional ou uma bio de negócio, um negrito bem aplicado já cumpre o papel de parecer diferente do texto padrão sem comprometer a leitura, o que costuma gerar mais engajamento do que um estilo excessivamente decorado que exige esforço extra do leitor.</p>
 
+  <h2>Fontes de letras bonitas para copiar: as 5 mais pedidas no Brasil</h2>
+  <p>O <strong>Google Fonts</strong> (lançado em 2010, com mais de 1.500 famílias tipográficas em 2024) e o <strong>Canva</strong> (fundado em 2012 por Melanie Perkins em Sydney) popularizaram no Brasil o gosto por tipografia expressiva no dia a dia. Esse repertório visual se reflete diretamente nas buscas por "fontes de letras bonitas": os usuários brasileiros buscam estilos que combinem identidade pessoal com boa legibilidade em telas de celular. A seguir estão os cinco estilos mais solicitados no gerador, com os motivos que os tornam os favoritos:</p>
+  <p><strong>1. Script Cursivo Bold (𝓐𝓑𝓒𝓓𝓔)</strong> — o estilo mais copiado no gerador. O traço espesso e os curvas conectadas criam uma aparência ao mesmo tempo elegante e marcante. Funciona bem em nomes de perfil do Instagram e bios, onde o primeiro impacto visual define se alguém toca no "seguir" ou não. Popular entre criadores de conteúdo, empreendedoras digitais e contas de moda e beleza.</p>
+  <p><strong>2. Script Cursivo simples (𝒜𝒷𝒸𝒹𝑒)</strong> — versão mais fina e caligráfica, com traço delicado que remete a papelaria premium. É o estilo preferido para bios de fotografia, poesia e perfis que buscam um visual refinado sem parecer pesado. Muito usado em status do WhatsApp com frases curtas e citações.</p>
+  <p><strong>3. Gótico Fraktur (𝔄𝔅ℭ𝔇𝔈)</strong> — o estilo com maior contraste visual em relação ao texto comum. A origem na tipografia blackletter medieval europeia dá ao texto um peso dramático que se destaca mesmo em feeds movimentados. No Brasil, é o favorito de nicks de jogos, contas de tatuagem e perfis de música alternativa.</p>
+  <p><strong>4. Duplo Contorno (𝔸𝔹ℂ𝔻𝔼)</strong> — também chamado de "double-struck", tem origem nos símbolos matemáticos (conjuntos numéricos como os naturais ℕ e os reais ℝ). O traço geométrico e limpo transmite modernidade técnica, por isso é muito usado por perfis de tecnologia, design e gaming competitivo.</p>
+  <p><strong>5. Borbulha (Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ)</strong> — cada letra dentro de um círculo cria um visual compacto e animado. É o estilo mais divertido da lista, popular em perfis de entretenimento, humor e entre o público mais jovem. Funciona especialmente bem em nicks de jogos como Free Fire e em bios descontraídas.</p>
+  <p>Para comparar todos esses estilos com o seu próprio nome ou frase, use o gerador acima: ele mostra os 25+ estilos lado a lado em tempo real, o que facilita identificar qual "fontes de letras bonitas" combina mais com o seu contexto específico.</p>
+
+  <h2>Como criar fontes de letras diferentes</h2>
+  <p>Criar uma fonte de letras diferente não exige nenhum software de design nem conhecimento técnico. O processo todo acontece no próprio navegador, em três etapas: digitar o texto no campo do gerador acima, visualizar instantaneamente o resultado em 25+ estilos e copiar o estilo escolhido com um toque. O texto convertido pode ser colado em qualquer campo que aceite digitação, como o nome de perfil do Instagram, a bio do WhatsApp, o nick do Free Fire ou um status do Telegram.</p>
+  <p>Para quem usa celular Android ou iPhone, o processo é idêntico ao do computador. Basta abrir esta página no navegador do celular (Chrome, Safari ou qualquer outro), digitar o texto, tocar no estilo desejado para copiar e ir diretamente ao aplicativo de destino para colar. Não existe app para instalar porque o gerador funciona como uma página web comum: todo o processamento acontece dentro do próprio navegador, sem enviar o texto para nenhum servidor. Para criar fontes de letras combinadas, como um nome em cursivo e uma palavra em negrito na mesma bio, basta copiar cada parte de um card diferente e montar a composição no campo de destino antes de salvar.</p>
+
   <h2>Fontes de letras para tatuagem</h2>
   <p>Para quem pensa em usar uma fonte de letras como referência de tatuagem, o critério mais importante é o contraste e a simplicidade do traço. Estilos como <strong>Negrito Unicode</strong> e <strong>Script Cursivo simples</strong> tendem a manter a legibilidade mesmo em tamanho reduzido na pele, porque têm traços mais grossos e uniformes. Já estilos muito ornamentados ou de traço fino, como algumas variações de duplo contorno ou espelhado, podem borrar com o tempo, principalmente em tatuagens pequenas, porque a tinta se espalha discretamente sob a pele ao longo dos anos.</p>
   <p>Uma recomendação honesta: use o gerador para <strong>visualizar e comparar estilos</strong> antes de decidir, mas sempre confirme o desenho final, o tamanho e a legibilidade com um tatuador profissional antes de aplicar. Um profissional experiente consegue adaptar o traço de uma fonte para que ela envelheça bem na pele, algo que uma fonte digital sozinha não garante.</p>
@@ -323,6 +344,22 @@ ld_schema_breadcrumb([
         <summary>As fontes de letras funcionam em qualquer celular?</summary>
         <div class="faq-body">Sim. Unicode é um padrão universal suportado por Android, iPhone e todos os navegadores e sistemas operacionais modernos, sem necessidade de instalar nada.</div>
       </details>
+      <details class="faq-item">
+        <summary>Quais são as fontes de letras mais bonitas?</summary>
+        <div class="faq-body">As cinco fontes de letras mais copiadas no gerador são: Script Cursivo Bold (𝓐𝓑𝓒), Script Cursivo simples (𝒜𝒷𝒸), Gótico Fraktur (𝔄𝔅ℭ), Duplo Contorno (𝔸𝔹ℂ) e Borbulha (Ⓐ Ⓑ Ⓒ). O Script Cursivo Bold é o favorito absoluto entre usuários brasileiros de Instagram e WhatsApp.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Como criar fontes de letras no celular?</summary>
+        <div class="faq-body">Abra esta página no navegador do celular (Chrome ou Safari), digite o texto no campo do gerador, toque no estilo desejado para copiar e vá ao app de destino para colar. Funciona em Android e iPhone sem instalar nenhum aplicativo.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Fontes de letras para logo: qual usar?</summary>
+        <div class="faq-body">Para visualizar rapidamente um conceito de logo, o Duplo Contorno (𝔸𝔹ℂ) e o Gótico Fraktur (𝔄𝔅ℭ) são os mais usados por terem traço marcante. Para um logo profissional definitivo, porém, o recomendado é usar uma fonte real em ferramentas como Canva, Adobe Illustrator ou Figma, pois logos precisam de arquivos vetoriais para escalar sem perder qualidade.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Fontes de letras para Instagram e WhatsApp são as mesmas?</summary>
+        <div class="faq-body">Sim, os mesmos caracteres Unicode funcionam nas duas plataformas. O Instagram aceita fontes especiais no nome de exibição e na bio. O WhatsApp aceita em mensagens, status e nome de perfil. Para guias específicos por plataforma, veja <a href="<?php echo esc_url(home_url('/letras-para-instagram/')); ?>">letras para Instagram</a> e <a href="<?php echo esc_url(home_url('/letras-para-whatsapp/')); ?>">letras para WhatsApp</a>.</div>
+      </details>
     </div>
   </div>
 </section>
@@ -345,6 +382,8 @@ ld_schema_breadcrumb([
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-goticas/')); ?>">𝔊 Letras Góticas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-bonitas/')); ?>">✨ Letras Bonitas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/simbolos/')); ?>">✦ Símbolos</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/tipos-de-letras/')); ?>">🔤 Tipos de Letras</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/simbolos-para-nick/')); ?>">⚔ Símbolos para Nick</a>
     </div>
   </div>
 </section>
