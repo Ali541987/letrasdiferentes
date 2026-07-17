@@ -177,6 +177,7 @@ ld_schema_software(
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-goticas/')); ?>">𝔊 Letras Góticas</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-bio/')); ?>">📝 Letras para Bio</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letras-bonitas/')); ?>">✨ Letras Bonitas</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/letra-pequena/')); ?>">ᴬ Letra Pequena</a>
     </div>
   </div>
 </section>

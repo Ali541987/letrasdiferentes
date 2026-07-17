@@ -169,6 +169,11 @@ function ld_get_page_meta_map() {
             'title' => 'Símbolos para Nick — 500+ para Copiar e Colar',
             'desc'  => 'Símbolos Unicode para nick do Free Fire, Discord, Valorant e PUBG. Estrelas, coroas, crânios, katakana e 500+ caracteres. Copie em 1 clique, grátis.',
         ],
+        // ── LETRA PEQUENA ────────────────────────────────────────
+        'letra-pequena'          => [
+            'title' => 'Letra Pequena para Copiar — Gerador Grátis',
+            'desc'  => 'Gere letras pequenas Unicode: sobrescrito ᵃᵇᶜ, small caps ᴀʙᴄ, subscrito ₐₑₒ e números em expoente ¹²³. Copie em 1 clique — grátis, sem cadastro.',
+        ],
         // ── EMOJIS ───────────────────────────────────────────────────────
         'emojis'                 => [
             'title' => 'Emojis para Copiar e Colar 😍 • WhatsApp e Free Fire',
@@ -237,8 +242,9 @@ add_filter('robots_txt', function($output) {
 add_filter('theme_page_templates', function($tpls) {
     $tpls['page-templates/page-blog.php']      = 'Blog';
     $tpls['page-templates/page-platform.php']  = 'Página de Plataforma';
-    $tpls['page-templates/page-simbolos.php']       = 'Símbolos';
-    $tpls['page-templates/page-fontes-de-letras.php'] = 'Fontes de Letras';
-    $tpls['page-templates/page-emojis.php']         = 'Página de Emojis';
+    $tpls['page-templates/page-simbolos.php']           = 'Símbolos';
+    $tpls['page-templates/page-fontes-de-letras.php']   = 'Fontes de Letras';
+    $tpls['page-templates/page-emojis.php']             = 'Página de Emojis';
+    $tpls['page-templates/page-letra-pequena.php']      = 'Letra Pequena';
     return $tpls;
 });
