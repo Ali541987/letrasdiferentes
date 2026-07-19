@@ -827,6 +827,7 @@ ld_schema_software(
       <a class="links-card" href="<?php echo esc_url(home_url('/simbolos/')); ?>">✦ Símbolos</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/simbolos-para-nick/')); ?>">⚔ Símbolos para Nick</a>
       <a class="links-card" href="<?php echo esc_url(home_url('/letra-pequena/')); ?>">ᴬ Letra Pequena</a>
+      <a class="links-card" href="<?php echo esc_url(home_url('/letras-para-discord/')); ?>">💬 Letras Discord</a>
     </div>
   </div>
 </section>

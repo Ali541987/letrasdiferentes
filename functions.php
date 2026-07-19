@@ -169,6 +169,11 @@ function ld_get_page_meta_map() {
             'title' => 'Símbolos para Nick — 500+ para Copiar e Colar',
             'desc'  => 'Símbolos Unicode para nick do Free Fire, Discord, Valorant e PUBG. Estrelas, coroas, crânios, katakana e 500+ caracteres. Copie em 1 clique, grátis.',
         ],
+        // ── LETRAS PARA DISCORD ──────────────────────────────────
+        'letras-para-discord'    => [
+            'title' => 'Letras para Discord — Fontes para Copiar e Colar',
+            'desc'  => 'Gere letras e fontes diferentes para Discord: nick, nome de exibição, bio e servidores. 25+ estilos Unicode + guia de Markdown. Copie em 1 clique, grátis.',
+        ],
         // ── LETRA PEQUENA ────────────────────────────────────────
         'letra-pequena'          => [
             'title' => 'Letra Pequena para Copiar — Gerador Grátis',
@@ -256,5 +261,6 @@ add_filter('theme_page_templates', function($tpls) {
     $tpls['page-templates/page-fontes-de-letras.php']   = 'Fontes de Letras';
     $tpls['page-templates/page-emojis.php']             = 'Página de Emojis';
     $tpls['page-templates/page-letra-pequena.php']      = 'Letra Pequena';
+    $tpls['page-templates/page-letras-para-discord.php'] = 'Letras para Discord';
     return $tpls;
 });
