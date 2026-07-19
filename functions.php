@@ -174,6 +174,11 @@ function ld_get_page_meta_map() {
             'title' => 'Letras para Discord — Fontes para Copiar e Colar',
             'desc'  => 'Gere letras e fontes diferentes para Discord: nick, nome de exibição, bio e servidores. 25+ estilos Unicode + guia de Markdown. Copie em 1 clique, grátis.',
         ],
+        // ── NÚMEROS DIFERENTES ──────────────────────────────────
+        'numeros-diferentes'     => [
+            'title' => 'Números Diferentes para Copiar — Fontes Unicode',
+            'desc'  => 'Gere números diferentes em 10+ estilos Unicode: negrito 𝟏𝟐𝟑, duplo contorno 𝟙𝟚𝟛, circulado ①②③, subscrito ₁₂₃ e mais. Copie em 1 clique, grátis.',
+        ],
         // ── LETRA PEQUENA ────────────────────────────────────────
         'letra-pequena'          => [
             'title' => 'Letra Pequena para Copiar — Gerador Grátis',
@@ -262,5 +267,6 @@ add_filter('theme_page_templates', function($tpls) {
     $tpls['page-templates/page-emojis.php']             = 'Página de Emojis';
     $tpls['page-templates/page-letra-pequena.php']      = 'Letra Pequena';
     $tpls['page-templates/page-letras-para-discord.php'] = 'Letras para Discord';
+    $tpls['page-templates/page-numeros-diferentes.php']  = 'Números Diferentes';
     return $tpls;
 });
