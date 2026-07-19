@@ -126,6 +126,8 @@ ld_schema_breadcrumb([
 </section>
 <!-- /GENERATOR -->
 
+<?php ld_ad(LD_AD_BELOW_GENERATOR); ?>
+
 <!-- TIPS -->
 <section class="tips-section">
   <div class="wrap">
@@ -305,6 +307,8 @@ ld_schema_breadcrumb([
   </div>
 </article>
 
+<?php ld_ad(LD_AD_MID_CONTENT); ?>
+
 <!-- FAQ -->
 <section class="faq-section" id="faq">
   <div class="wrap">
@@ -363,6 +367,8 @@ ld_schema_breadcrumb([
     </div>
   </div>
 </section>
+
+<?php ld_ad(LD_AD_BEFORE_LINKS); ?>
 
 <!-- INTERNAL LINKS -->
 <section class="links-section">

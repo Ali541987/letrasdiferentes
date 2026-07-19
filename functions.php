@@ -220,6 +220,16 @@ add_action('wp_head', function() {
     echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880099093437517" crossorigin="anonymous"></script>' . "\n";
 }, 2);
 
+function ld_ad(string $slot): void {
+    echo '<div class="ld-ad-unit" aria-hidden="true">';
+    echo '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8880099093437517" data-ad-slot="' . esc_attr($slot) . '" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+    echo '<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
+    echo '</div>' . "\n";
+}
+define('LD_AD_BELOW_GENERATOR', '4453414150');
+define('LD_AD_MID_CONTENT',     '6964715786');
+define('LD_AD_BEFORE_LINKS',    '4585844317');
+
 /* ── CLEAN WP HEAD ── */
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'wlwmanifest_link');

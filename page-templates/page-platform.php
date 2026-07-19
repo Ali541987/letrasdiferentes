@@ -744,6 +744,8 @@ ld_schema_software(
 </section>
 <!-- /GENERATOR -->
 
+<?php ld_ad(LD_AD_BELOW_GENERATOR); ?>
+
 <?php if (!empty($p['tips'])) : ?>
 <!-- TIPS -->
 <section class="tips-section">
@@ -802,7 +804,10 @@ ld_schema_software(
 </div>
 <?php endif; ?>
 
+<?php ld_ad(LD_AD_MID_CONTENT); ?>
+
 <!-- INTERNAL LINKS -->
+<?php ld_ad(LD_AD_BEFORE_LINKS); ?>
 <section class="links-section">
   <div class="wrap">
     <div class="section-header">

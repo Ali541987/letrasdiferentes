@@ -85,6 +85,8 @@ ld_schema_software(
   </div>
 </section>
 
+<?php ld_ad(LD_AD_BELOW_GENERATOR); ?>
+
 <!-- TIPS -->
 <section class="tips-section">
   <div class="wrap">
@@ -142,6 +144,8 @@ ld_schema_software(
   </div>
 </section>
 
+<?php ld_ad(LD_AD_MID_CONTENT); ?>
+
 <!-- SEO ARTICLE -->
 <article class="content-article">
   <div class="article-wrap">
@@ -161,6 +165,8 @@ ld_schema_software(
   </div>
   </div>
 </article>
+
+<?php ld_ad(LD_AD_BEFORE_LINKS); ?>
 
 <!-- INTERNAL LINKS -->
 <section class="links-section">
